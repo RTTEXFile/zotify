@@ -1,5 +1,8 @@
 # Changelog
 
+## 0.6.11
+- Fix song_ids file creation
+
 ## 0.6.10
 - Fix cover art size once and for all
 

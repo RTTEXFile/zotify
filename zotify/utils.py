@@ -28,7 +28,7 @@ def create_download_directory(download_path: str) -> None:
     # add hidden file with song ids
     hidden_file_path = PurePath(download_path).joinpath('.song_ids')
     if not Path(hidden_file_path).is_file():
-        with open(hidden_file_path, 'w', encoding='utf-8') as f:
+        with open(hidden_file_path, 'w+', encoding='utf-8') as f:
             pass
 
 
